@@ -3,7 +3,6 @@ public class Test {
     
     public static void main(String[] args){
         
-        //UpCasting
         
         Employee E = new Developer();
         
@@ -18,13 +17,9 @@ public class Test {
         
         e.Work();
         
-        
-        
-        
-        
         System.out.println("");
         
-        //DownCasting
+        
         
         Developer D = (Developer)E;
         
@@ -32,17 +27,20 @@ public class Test {
         
         System.out.println(D.ProgrammingLanguage);
         
+        
         D.Work();
         
         D.WriteCode();
         
         System.out.println("");
         
+        
         Manager M = (Manager)e;
         
         M.TeamMembers=135;
         
         System.out.println(M.TeamMembers);
+        
         
         M.Work();
         
